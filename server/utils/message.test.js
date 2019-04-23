@@ -1,4 +1,4 @@
-var {generateMessage} = require('./message');
+var { generateMessage } = require('./message');
 var expect = require('expect');
 
 describe('generateMessage', () => {
@@ -7,6 +7,6 @@ describe('generateMessage', () => {
         var text = 'Some message';
         var message = generateMessage(from, text);
         expect(message.createdAt).not.toBeNaN();
-        expect(message).toMatchObject({from, text});
+        expect(message).toMatchObject({ from, text });
     })
 })
