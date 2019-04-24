@@ -1,2 +1,4 @@
 .DS_Store
 node_modules/
+node-chat-app/
+node-chat-app.tar.gz
