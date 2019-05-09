@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+playgroud/
 node-chat-app/
 node-chat-app.tar.gz
 
